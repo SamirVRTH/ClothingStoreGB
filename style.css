@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+
+.logo {
+    padding-right: 37px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logotext {
+    display: flex;
+    align-items: center;
+    font-family: Lato;
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+    margin-top: auto;
+    margin-bottom: 5px;
+    padding-left: 13px;
+}
+
+.logoimg {
+    display: flex;
+    align-items: center;
+}
+
+
+.D {
+    font-weight: 900;
+    color: #f16d7f;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.leftheader {
+     display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.rightheader {
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+
+.form {
+    display: inline-block;
+    display: flex;
+}
+
+.search {
+    width: 36px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.searchicon {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #a4a4a4;
+}
+
+.Browse {
+    width: 87px;
+    height: 40px;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+    border: 1px solid #e6e6e6;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.buttontext {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.input {
+    width: 280px;
+    height: 38px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 0px 0 px 0px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #a4a4a4;
+    padding-left: 16px;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+}
+
+.myaccount {
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    border-style: none;
+}
+
+.accounttext {
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+.cartimage {
+    margin-right: 26px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.list-menu {
+    position: relative;
+}
+
+.but-menu {
+    font-family: Lato;
+    line-height: 26px;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banner {
+    height: 613px;
+    background: #e8e8e8;
+}
+
+.banner-part{
+    height: 100%;
+    background: url(images/image_frame_84.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-text {
+    margin-top: 224px;
+    padding-left: 12px;
+    border-left: 12px solid #f16d7f;
+    float: left;
+}
+
+.brand {
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.fashion {
+    font-family: Lato;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.fashion-span {
+    color: #f16d7f;
+}
+
+.cards {
+    margin-top: 98px;
+    display: flex;
+}
+
+.left_top_card {
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 21px;
+}
+
+.left_bot_card {
+    position: relative;
+}
+
+.right_top_card {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.right_bot_card {
+    position: relative;
+}
+
+.textup {
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.textdown {
+    font-size: 30px;
+    color: #f16d7f;
+    font-family: Lato;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.cardhref {
+    display: block;
+}
+
+.card1_text {
+    padding: 16px 20px;
+    background-color: white;
+    position: absolute;
+    top: 26px;
+}
+
+.card2_text {
+    padding: 16px 18px;
+    background-color: white;
+    position: absolute;
+    top: 41px;
+}
+
+.card3_text {
+    background-color: white;
+    position: absolute;
+    top: 26px;
+    padding: 16px 18px;
+}
+
+.card4_text {
+    background-color: white;
+    position: absolute;
+    padding: 16px 20px;
+    top: 27px;
+}
+
+
+.mega-box {
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 47px;
+    display: none;
+    
+}
+
+
+.mega-heading {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e8e8e8;
+    width: 235px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.mega-link {
+    display: block;
+    text-decoration: none;
+    color: #646464;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.mega-link:hover {
+    color: #f16d7f;
+}
+
+.mega-item {
+    margin-right: 45px;
+}
+
+.mega-item:last-of-type {
+    margin-right: 0;
+}
+
+.mega-box:before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    position: absolute;
+    top: -8px;
+    left: 35px;
+    transform: rotate(45deg);
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+}
+
+.list-menu:hover .mega-box{
+    display: flex;
+}
+
+.last:hover .mega-box {
+    right: 0;
+    left: auto;
+}
+
+.last:hover .mega-box:before {
+    right: 55px;
+    left: auto;
+}
+
+.col {
+    margin-top: 21px;
+}
+
+.sale {
+    margin-top: 17px;
+    position: relative;
+}
+
+.supersale {
+    position: absolute;
+    font-family: Lato;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    bottom: 14px;
+    right: 26px;
+}
